@@ -1,0 +1,47 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, #message {
+	text-align: center;
+}
+
+#box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 152px;
+	margin: 50px auto 50px;
+	border: 1px solid black;
+}
+
+.item {
+	position: relative;
+	width: 48px;
+	height: 50px;
+	line-height: 48px;
+	border: 1px solid black;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+	transition: all linear .3s;
+}
+
+.item:hover {
+	background-color: grey;
+}
+
+#reset {
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#reset:hover {
+	background-color: grey;
+}
+
